@@ -19,67 +19,69 @@
     </div>
   </section>  
   <script>
-    let persons = [
+    let real = [
       {
         name: 'Leo Ramirez O',
-        photo: 'assets/images/EsCoRpIoN178.jpg',
+        photo: './assets/images/EsCoRpIoN178.jpg',
       },
       {
         name: 'Jim Moroco',
-        photo: 'assets/images/jim_moroco.jpg',
+        photo: './assets/images/jim_moroco.jpg',
       },
       {
         name: 'Andrea Cornejo',
-        photo: 'assets/images/andreacodesign.jpg',
+        photo: './assets/images/andreacodesign.jpg',
       },
       {
         name: 'Nataly Nanda',
-        photo: 'assets/images/natalynandaHP.jpg',
+        photo: './assets/images/natalynandaHP.jpg',
       },
       {
         name: 'Jose Chirinos',
-        photo: 'assets/images/jsechirinos.jpg',
+        photo: './assets/images/jsechirinos.jpg',
       },
       {
         name: 'Susy Jam',
-        photo: 'assets/images/susyjam.jpg',
+        photo: './assets/images/susyjam.jpg',
       },
       {
         name: 'Alfredo Solis Q',
-        photo: 'assets/images/alfredo_solisq.jpg',
+        photo: './assets/images/alfredo_solisq.jpg',
       },
       {
         name: 'Iber Fernandez',
-        photo: 'assets/images/IberFM.jpg',
+        photo: './assets/images/IberFM.jpg',
       },
     ];
 
-    // let persons = [
-    //   {
-    //     name: 'Person 1',
-    //     photo: 'https://randomuser.me/api/portraits/lego/1.jpg',
-    //   },
-    //   {
-    //     name: 'Person 2',
-    //     photo: 'https://randomuser.me/api/portraits/lego/2.jpg',
-    //   },
-    //   {
-    //     name: 'Person 3',
-    //     photo: 'https://randomuser.me/api/portraits/lego/3.jpg',
-    //   },
-    //   {
-    //     name: 'Person 4',
-    //     photo: 'https://randomuser.me/api/portraits/lego/4.jpg',
-    //   },
-    //   {
-    //     name: 'Person 5',
-    //     photo: 'https://randomuser.me/api/portraits/lego/5.jpg',
-    //   },
-    //   {
-    //     name: 'Person 6',
-    //     photo: 'https://randomuser.me/api/portraits/lego/6.jpg',
-    //   },
-    // ];
+    let fake = [
+      {
+        name: 'Person 1',
+        photo: 'https://randomuser.me/api/portraits/lego/1.jpg',
+      },
+      {
+        name: 'Person 2',
+        photo: 'https://randomuser.me/api/portraits/lego/2.jpg',
+      },
+      {
+        name: 'Person 3',
+        photo: 'https://randomuser.me/api/portraits/lego/3.jpg',
+      },
+      {
+        name: 'Person 4',
+        photo: 'https://randomuser.me/api/portraits/lego/4.jpg',
+      },
+      {
+        name: 'Person 5',
+        photo: 'https://randomuser.me/api/portraits/lego/5.jpg',
+      },
+      {
+        name: 'Person 6',
+        photo: 'https://randomuser.me/api/portraits/lego/6.jpg',
+      },
+    ];
+
+    let persons = real;
 
     function getRandomInt(min, max) {
       return Math.floor(Math.random() * (max - min)) + min;
